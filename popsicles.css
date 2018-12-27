@@ -48,11 +48,6 @@ p, li {
   font-size: 1.625rem;
 }
 
-.fa-snowflake {
-  color: white;
-  font-size: 3rem;
-}
-
 #menu {
   margin-top: 20px;
 }
@@ -79,10 +74,13 @@ p, li {
 .fa-comment {
   margin-left: 10px;
   padding-top: 0;
-  font-size: 3rem;
 }
 
-.fa-map-pin {
+.fa-snowflake {
+  color: white;
+}
+
+.icon {
   font-size: 3rem;
 }
 
@@ -116,7 +114,7 @@ p, li {
     font-size: 1.25rem;
   }
   
-  .fa-snowflake, .fa-comment, .fa-map-pin {
+  .icon {
     font-size: 1.9rem;
   }
 }
