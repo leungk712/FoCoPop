@@ -9,3 +9,9 @@ Issues that I have come across is the scrolling method. I have tried using CSS a
 Stay tuned!
 
 - Kev
+
+5/27/2019
+
+Hello! Few updates. I am currently in the process of refactoring my code to make sure I'm not repeating myself. One challenge is making sure that I continue to build good habits in properly naming my classes and ids so if I'm working on a project with other developers that I properly communicate what they're looking at (HTML, CSS, JS). 
+
+I have added the order form page. It's using HTML and CSS currently. I plan to incorporate JavaScript into by showcasing an overlay receipt box that summarizes their order. This will allow me to continue to learn how to manipulate the DOM and add dynamics to my page. 
