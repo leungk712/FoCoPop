@@ -5,11 +5,16 @@ html, body {
   padding: 0;
   background: #cc7896;
   font-family: 'Shadows Into Light Two', cursive, sans-serif;
-  overflow-x: hidden;
+  line-height: normal;
+  text-align: center;
 }
 
-.nav-link:hover {
+.nav-link:hover, button, .navbar-brand:hover {
   color: #c71585;
+}
+
+.navbar {
+  position: fixed;
 }
 
 nav, .navbar-brand, nav a {
@@ -20,17 +25,15 @@ nav, .navbar-brand, nav a {
 }
 
 nav a {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .navbar-brand:hover {
   padding-top: 15px;
-  color: #c71585;
 }
 
-button {
-  color: #c71585;
+.container-fluid {
+  position: relative;
 }
 
 ul {
@@ -40,11 +43,11 @@ ul {
 
 img {
   height: auto;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
   max-width: 100%;
 }
 
-p, li {
+p, li, #contact {
   font-size: 1.625rem;
 }
 
@@ -64,7 +67,6 @@ p, li {
 #contact {
   background: #D8BFD8;
   margin: 0 auto;
-  font-size: 1.625rem;
 }
 
 #contact h2 {
@@ -84,11 +86,11 @@ p, li {
   font-size: 3rem;
 }
 
-#location {
+#locationsHeader {
   margin-top: 20px;
 }
 
----Media Queries --
+/* --- Media Queries --*/
 
 @media (max-width: 992px) {
   
