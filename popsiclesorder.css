@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #cc7896;
+  font-family: 'Shadows Into Light Two', cursive, sans-serif;
+  line-height: normal;
+}
+
+.nav-link:hover, button, .navbar-brand:hover  {
+  color: #c71585;
+}
+
+.navbar {
+  position: fixed;
+}
+
+nav, .navbar-brand, nav a {
+  text-transform: uppercase;
+  font-size: 1.625rem;
+  background: #D8BFD8;
+  color: white;
+}
+
+nav a {
+  padding: 0 10px;
+}
+
+.navbar-brand:hover {
+  padding-top: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p, label {
+  font-size: 1.5rem;
+}
+
+#contact {
+  background: #D8BFD8;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#contact h2 {
+  margin-top: 10px;
+}
+
+/* Order Form */
+
+.order {
+  margin-top: 6rem;
+  flex: 1;
+}
+
+.flavor-ordering-checkbox {
+  display: flex;
+  align-items: left !important;
+}
+
+.form-check {
+  padding: 0.25rem 0;
+  padding-left: 1rem;
+}
+
+.submit-order {
+  margin-left: 1rem;
+}
+
+.form-check-input {
+  vertical-align: bottom;
+}
