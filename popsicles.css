@@ -13,6 +13,10 @@ html, body {
   color: #c71585;
 }
 
+.nav-link:hover {
+  border-bottom: 1px solid #c17585;
+}
+
 .navbar {
   position: fixed;
 }
