@@ -1,4 +1,4 @@
-# FoCoPop (Complete project link https://leungk712.github.io/FoCoPop/)
+# [FoCoPop] (https://leungk712.github.io/FoCoPop/)
 
 Hello! Welcome to FoCo Pop! What inspired me to create this website was based on Colt Steele's Bootstrap 4 section in his Web Developer course. I liked the design that he had for his Museum of Candy and wanted to take it a bit further and design a webpage for a fake popsicle shop based in Fort Collins, Colorado. The menu is seasonal with a variety of unique flavors. 
 
