@@ -9,16 +9,16 @@ html, body {
   text-align: center;
 }
 
+nav {
+  height: 5rem;
+}
+
 .nav-link:hover, button, .navbar-brand:hover {
   color: #c71585;
 }
 
 .nav-link:hover {
   border-bottom: 1px solid #c17585;
-}
-
-.navbar {
-  position: fixed;
 }
 
 nav, .navbar-brand, nav a {
@@ -32,12 +32,8 @@ nav a {
   padding: 0 10px;
 }
 
-.navbar-brand:hover {
-  padding-top: 15px;
-}
-
-.container-fluid {
-  position: relative;
+.section-title {
+  font-size: 3.5rem;
 }
 
 ul {
@@ -94,15 +90,11 @@ p, li, #contact {
   margin-top: 20px;
 }
 
-/* --- Media Queries --*/
+/* -- Media Queries --*/
 
-@media (max-width: 992px) {
-  
-}
-  
 @media (max-width: 768px) {
-  .display-4 {
-    font-size: 4rem;
+  .section-title {
+    font-size: 3.5rem;
   }
   
   p, #aboutMe p, #menu p, li {
@@ -111,7 +103,7 @@ p, li, #contact {
 }
 
 @media (max-width: 576px) {
-  .display-4 {
+  .section-title {
     font-size: 2.25rem;
     font-weight: 600;
   }
