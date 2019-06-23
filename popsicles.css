@@ -20,7 +20,7 @@ nav {
   z-index: 2;
 }
 
-.navbar {
+.navbar, .container-fluid {
   padding: 0;
 }
 
