@@ -1,11 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
   background: #cc7896;
   font-family: 'Shadows Into Light Two', cursive, sans-serif;
   line-height: normal;
+}
+
+nav { 
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar { 
+  padding: 0;
+}
+
+.navbar-nav .nav-link, nav a {
+  padding-left: 10px;
 }
 
 .nav-link:hover, button, .navbar-brand:hover  {
@@ -16,23 +35,11 @@ html, body {
   border-bottom: 1px solid #c17585;
 }
 
-.navbar {
-  position: fixed;
-}
-
 nav, .navbar-brand, nav a {
   text-transform: uppercase;
   font-size: 1.625rem;
   background: #D8BFD8;
   color: white;
-}
-
-nav a {
-  padding: 0 10px;
-}
-
-.navbar-brand:hover {
-  padding-top: 15px;
 }
 
 .wrapper {
@@ -42,7 +49,7 @@ nav a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 p, label {
@@ -62,13 +69,13 @@ p, label {
 /* Order Form */
 
 .order {
-  margin-top: 6rem;
+  margin-top: 2rem;
   flex: 1;
 }
 
 .flavor-ordering-checkbox {
   display: flex;
-  align-items: left !important;
+  align-items: left;
 }
 
 .form-check {
@@ -82,4 +89,10 @@ p, label {
 
 .form-check-input {
   vertical-align: bottom;
+}
+
+@media (max-width: 768px) {
+  .nav-link:hover {
+    border-bottom: none;
+  }
 }
