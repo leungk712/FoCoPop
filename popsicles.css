@@ -1,8 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
   background: #cc7896;
   font-family: 'Shadows Into Light Two', cursive, sans-serif;
   line-height: normal;
@@ -11,6 +15,13 @@ html, body {
 
 nav {
   height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .nav-link:hover, button, .navbar-brand:hover {
@@ -18,7 +29,7 @@ nav {
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid #c17585;
+  border-bottom: 1px solid #c71585;
 }
 
 nav, .navbar-brand, nav a {
@@ -43,7 +54,6 @@ ul {
 
 img {
   height: auto;
-  margin-top: 20px;
   max-width: 100%;
 }
 
