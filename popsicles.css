@@ -43,6 +43,15 @@ nav a {
   padding: 0 10px;
 }
 
+#date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: #d6b4ce;
+  font-size: 1.25rem;
+}
+
 .section-title {
   font-size: 3.5rem;
 }
@@ -117,6 +126,11 @@ p, li, #contact {
 }
 
 @media (max-width: 576px) {
+  #date {
+    height: 70px;
+    font-size: 1rem;
+  }
+  
   .section-title {
     font-size: 2.25rem;
     font-weight: 600;
